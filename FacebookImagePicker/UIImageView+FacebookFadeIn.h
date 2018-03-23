@@ -11,5 +11,5 @@
 @interface UIImageView (FacebookFadeIn)
 - (void)setAndFadeInFacebookImageWithURL:(NSURL *)url;
 - (void)setAndFadeInFacebookImageWithURL:(NSURL *)url placeholder:(UIImage *)placeholder;
--(void)setAndFadeInFacebookImageWithURL:(NSURL *)url placeholder:(UIImage *)placeholder completionHandler:(void(^)())handler;
+- (void)setAndFadeInFacebookImageWithURL:(NSURL *)url placeholder:(UIImage *)placeholder completionHandler:(void(^)(void))handler;
 @end
